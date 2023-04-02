@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.navigation-bar {
+  background-color: rgb(0, 171, 228);
+  text-align:left;
+}
+.img1{
+float:left;
+height: 70px;
+text-align: left;
+}
+
+.img2{
+  float:right;
+  height: 70px;
+  text-align: right;
+  }
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+.navigation-bar li a:hover{
+  color: rgba(255, 255, 255, 0.493);
+}
+
+#menu {
+  float: right;
+}
